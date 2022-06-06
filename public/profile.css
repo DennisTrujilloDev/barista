@@ -1,0 +1,77 @@
+p{
+  margin: 0;
+}
+section{
+  margin-top: 10px;
+}
+#orNu{
+  font-weight: bold;
+}
+.fa-blender{
+  font-size: 3rem;
+  text-align: center;
+  margin: auto;
+}
+#button{
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  background-color: turquoise;
+  padding: 0.2%;
+  /* text-align: center; */
+  padding: 0.5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(bg.jpg);
+}
+.page-header{
+  background-color: grey;
+  width: 30%;
+  padding: 1%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.row, .col-sm-6{
+  background-color: grey;
+  width: 60%;
+  padding: 1%;
+  margin: auto;
+}
+h1{
+  text-align: center;
+  margin-bottom: 0;
+}
+section span, section p{
+  font-size: 1.2rem;
+}
+li{
+  list-style: none;
+  text-align: left;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+#pending, #finished{
+  font-size: 1rem;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+

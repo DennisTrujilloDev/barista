@@ -1,0 +1,122 @@
+/* #bottomTwo{
+  display: flex;
+} */
+
+.orderType{
+  flex-direction: row;
+  display: inline-block;
+}
+
+#barista{
+  margin: auto;
+  background-color: grey;
+  width: 30%;
+  height: 150px;
+}
+
+#all{
+  background-color: grey;
+  margin: auto;
+  width: 80%;
+}
+.sub{
+  /* display: flex;
+  justify-content: center; */
+  line-height: 1.5rem;
+}
+#sub, #orderType{
+  width: 40%;
+}
+
+#btn{
+  margin-top: 20px;
+}
+
+#inn{
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+#sizes{
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: left;
+}
+button{
+  line-height: 2rem;
+}
+
+select{
+  width: 60%;
+  text-align: center;
+}
+
+h3{
+  margin-right: 0;
+  margin-top: 0;
+}
+body{
+  padding-top: 80px;
+  word-wrap: break-word;
+  background-image: url(/public/img/bsas.jpg);
+  background-size: contain;
+}
+img{
+  max-height: 300px;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+.jumbotron{
+  background-size: cover;
+  background-color: lightgreen;
+  
+}
+#title{
+  color: #13585C;
+}
+
+#btn{
+  margin-top: 80px;
+  background-color: turquoise;
+}
+
+/* #loginSignUp{
+  color: #13585C;
+  
+} */
+
+.CashierContainer{
+  text-align: center;
+}
+
+#loginSignUpBaristas{
+  /* color: #13585C; */
+  font-size: 30px;
+  font-weight: bold;
+}
+.loginButton, .signUpButton{
+  background-color: turquoise;
+}
+form{
+  display: flex;
+  justify-content: space-around;
+}
+h2{
+  padding-top: 40px;
+}
+input{
+  line-height: 1rem;
+}
+/* #loginSignUp, #cashier{
+  color: black;
+} */
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(bg.jpg);
+}
+.col-sm-offset-3{
+  background-color: turquoise;
+  margin-top: 100px;
+}
